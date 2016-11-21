@@ -71,11 +71,7 @@
       "<rootDir>/config/polyfills.js"
     ],
     "testPathIgnorePatterns": [
-      "<rootDir>/(build)/"
-    ],
-    "testPathDirs": [
-        "<rootDir>",
-        "<rootDir>/src/node_modules"
+      "<rootDir>/(build|config|node_modules)/"
     ],
     "preprocessorIgnorePatterns": [
         "<rootDir>/node_modules"
