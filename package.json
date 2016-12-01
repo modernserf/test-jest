@@ -76,7 +76,10 @@
     "preprocessorIgnorePatterns": [
         "<rootDir>/node_modules"
     ],
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "haste": {
+        "providesModuleNodeModules": [".*"]
+    }
   },
   "babel": {
     "presets": [
